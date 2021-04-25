@@ -1,6 +1,6 @@
 # IoT Center Repository
 
-Repositorio de códigos relacionados a Internet of Things 
+Repository of codes related to Internet of Things
 
 ## Devices
 
