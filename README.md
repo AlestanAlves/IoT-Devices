@@ -59,6 +59,17 @@ Step 1.12: Run following final commands
 
 `cd tools && python get.py`
 
-## Circuit ESP32
+### Circuit ESP32
 
 ![image-circuit](http://xprojetos.net/wp-content/uploads/2019/04/ESP32-DevkitV1_Pinout.jpg)
+
+## Installing Dracula theme for Arduino IDE
+
+`git clone https://github.com/dracula/arduino-ide.git`
+
+**Linux:**
+
+Navigate to `/home/${USER}/Downloads/arduino-1.8.13/lib` or where did you install the Arduino IDE </br>
+Rename `theme` folder to `theme.bak`. </br>
+Copy the `./arduino/theme` folder to the `/home/${USER}/Downloads/arduino-1.8.13/lib` directory on your local machine. </br>
+Close and re-open *Arduino IDE*! </br>
