@@ -72,4 +72,4 @@ Step 1.12: Run following final commands
 Navigate to `/home/${USER}/Downloads/arduino-1.8.13/lib` or where did you install the Arduino IDE </br>
 Rename `theme` folder to `theme.bak`. </br>
 Copy the `./arduino/theme` folder to the `/home/${USER}/Downloads/arduino-1.8.13/lib` directory on your local machine. </br>
-Close and re-open *Arduino IDE*! </br>
+Close and re-open *Arduino IDE*! </br> 
