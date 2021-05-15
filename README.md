@@ -100,3 +100,12 @@ import upip
 upip.install('micropython-urequests')
 ```
 
+Adicionar codigos python no ESP32
+
+```
+ampy --port /dev/ttyUSB0 put codigo.py
+```
+Rodar main.py que eh a funcao principal
+```
+ampy --port /dev/ttyUSB0 run codigo.py
+```
