@@ -107,5 +107,5 @@ ampy --port /dev/ttyUSB0 put codigo.py
 ```
 Rodar main.py que eh a funcao principal
 ```
-ampy --port /dev/ttyUSB0 run codigo.py
+ampy --port /dev/ttyUSB0 run main.py
 ```
