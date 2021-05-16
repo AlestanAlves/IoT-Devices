@@ -109,3 +109,4 @@ Rodar main.py que eh a funcao principal
 ```
 ampy --port /dev/ttyUSB0 run main.py
 ```
+
