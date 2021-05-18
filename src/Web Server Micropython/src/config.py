@@ -1,0 +1,3 @@
+# Networking settings
+ssid = ""
+password = ""

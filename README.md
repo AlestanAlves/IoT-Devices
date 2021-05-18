@@ -73,3 +73,49 @@ Navigate to `/home/${USER}/Downloads/arduino-1.8.13/lib` or where did you instal
 Rename `theme` folder to `theme.bak`. </br>
 Copy the `./arduino/theme` folder to the `/home/${USER}/Downloads/arduino-1.8.13/lib` directory on your local machine. </br>
 Close and re-open *Arduino IDE*! </br> 
+
+## Install Micropython in ESP32
+
+Download firmware 
+
+https://micropython.org/download/esp32/
+
+Colocar o firmware no ESP32
+
+```
+pip install esptool
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
+```
+
+Instalar o ampy para se comunicar via ele com o ESP32
+
+```
+pip install adafruit-ampy
+```
+
+Install urequests
+
+```
+import upip
+upip.install('micropython-urequests')
+```
+
+Adicionar codigos python no ESP32
+
+```
+ampy --port /dev/ttyUSB0 put codigo.py
+```
+Rodar main.py que eh a funcao principal
+```
+ampy --port /dev/ttyUSB0 run main.py
+```
+
+## Digispark Install
+
+http://digistump.com/wiki/digispark/tutorials/connecting
+https://www.youtube.com/watch?v=MmDBvgrYGZs
+
+Funcionar em teclado brasileiro 
+
+https://github.com/jcldf/digisparkABNT2
+https://github.com/Gadotti/DigisparkScripts
