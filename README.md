@@ -112,10 +112,10 @@ ampy --port /dev/ttyUSB0 run main.py
 
 ## Digispark Install
 
-http://digistump.com/wiki/digispark/tutorials/connecting
-https://www.youtube.com/watch?v=MmDBvgrYGZs
+- http://digistump.com/wiki/digispark/tutorials/connecting
+- https://www.youtube.com/watch?v=MmDBvgrYGZs
 
 Funcionar em teclado brasileiro 
 
-https://github.com/jcldf/digisparkABNT2
-https://github.com/Gadotti/DigisparkScripts
+- https://github.com/jcldf/digisparkABNT2
+- https://github.com/Gadotti/DigisparkScripts
